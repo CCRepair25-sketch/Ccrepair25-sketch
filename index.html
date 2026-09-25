@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CC Repair 25 Sketch is a modern creative studio for product design, user experiences, and repair-ready digital systems."
+    />
+    <title>CC Repair 25 Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand" aria-label="CC Repair 25 Sketch home">
+          <span class="brand-mark">CC</span>
+          <span class="brand-text">Repair 25 Sketch</span>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+          <span class="icon">☀️</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Creative system design</p>
+            <h1>Turning rough ideas into polished digital experiences.</h1>
+            <p class="lead">
+              We help founders and teams sharpen product direction, rebuild flawed systems,
+              and launch experiences that are clear, fast, and memorable.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#contact">Book a consult</a>
+              <a class="button secondary" href="#services">See capabilities</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Key metrics">
+              <li><strong>4+</strong><span>Years building</span></li>
+              <li><strong>12</strong><span>Product launches</span></li>
+              <li><strong>98%</strong><span>Client retention</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Project overview card">
+            <div class="card-top">
+              <span class="status-dot"></span>
+              <span>Current sprint</span>
+            </div>
+            <h2>Product overhaul</h2>
+            <div class="mini-chart" aria-hidden="true">
+              <span style="height: 36%"></span>
+              <span style="height: 54%"></span>
+              <span style="height: 68%"></span>
+              <span style="height: 84%"></span>
+              <span style="height: 100%"></span>
+            </div>
+            <div class="card-footer">
+              <div>
+                <small>Delivery</small>
+                <strong>6 weeks</strong>
+              </div>
+              <div>
+                <small>Focus</small>
+                <strong>UX + systems</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What we do</p>
+            <h2>Strategy, design, and digital repair.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="info-card">
+              <span class="card-icon">🧭</span>
+              <h3>Product Strategy</h3>
+              <p>Clarify the roadmap, market positioning, and build priorities when direction is unclear.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🎨</span>
+              <h3>UX/UI Design</h3>
+              <p>Create intuitive experiences, clear flows, and compelling interfaces.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">⚙️</span>
+              <h3>System Repair</h3>
+              <p>Diagnose friction, simplify operations, and make existing products easier to use and scale.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section alt-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Process</p>
+            <h2>From idea to implementation.</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="step">01</span>
+              <div>
+                <h3>Diagnose</h3>
+                <p>Audit the current experience and identify what is slowing the product down.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="step">02</span>
+              <div>
+                <h3>Design</h3>
+                <p>Prototype the right solution, validate assumptions, and refine the interface.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="step">03</span>
+              <div>
+                <h3>Deploy</h3>
+                <p>Ship the system with documentation, clarity, and a path for sustainable growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">Why us</p>
+            <h2>We bring calm structure to messy ideas.</h2>
+          </div>
+          <p>
+            CC Repair 25 Sketch combines strategy, interface design, and product thinking to turn
+            uncertainty into momentum. Whether you need a pivot, a refresh, or a clean rebuild, we help
+            make the next step obvious.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="eyebrow">Let’s build</p>
+          <h2>Ready for the next version?</h2>
+        </div>
+        <a class="button primary" href="mailto:hello@ccrepair25sketch.dev">hello@ccrepair25sketch.dev</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> CC Repair 25 Sketch</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
